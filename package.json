@@ -1,0 +1,40 @@
+{
+    "name": "webpack-starter",
+    "version": "1.0.0",
+    "description": "pug-scss-babel-webpack-starter",
+    "scripts": {
+        "start": "webpack-dev-server --open --mode development",
+        "build": "webpack --mode production",
+        "lint": "eslint ."
+    },
+    "author": "Vitaly Sazanov",
+    "license": "ISC",
+    "browserslist": [
+        "last 2 versions"
+    ],
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.7.0",
+        "css-loader": "^0.28.11",
+        "eslint": "^4.19.1",
+        "eslint-config-kraftvaerk": "0.0.5",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "mini-css-extract-plugin": "^0.4.0",
+        "node-sass": "^4.9.0",
+        "optimize-css-assets-webpack-plugin": "^4.0.1",
+        "postcss-loader": "^2.1.5",
+        "pug-html-loader": "^1.1.5",
+        "sass-loader": "^7.0.1",
+        "stylelint": "^9.2.1",
+        "stylelint-config-kraftvaerk": "^2.0.1",
+        "uglifyjs-webpack-plugin": "^1.2.5",
+        "webpack": "^4.8.3",
+        "webpack-cli": "^2.1.3",
+        "webpack-dev-server": "^3.1.4"
+    },
+    "eslintConfig": {
+        "extends": "kraftvaerk"
+    }
+}
