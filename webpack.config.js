@@ -4,9 +4,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 module.exports = {
-    entry: [
-        './src/js/index.js'
-    ],
+    entry: './src/js/',
     module: {  
         rules: [
             {
